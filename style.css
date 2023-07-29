@@ -1,5 +1,9 @@
 body{
     background-color: rgb(5, 168, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -8,5 +12,54 @@ body{
     height: 500px;
     padding: 20px;
     border-radius: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.otp{
+    display: flex;
+    justify-content:space-around;
+    width: 500px;
+    margin: 10px 0px;
+}
+
+.otp-box{
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+    background-color: rgb(5, 168, 222) ;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color:  rgb(5, 110, 222);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color:rgb(5, 168, 222) ;
+    cursor: pointer;
 }
